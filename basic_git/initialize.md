@@ -1,10 +1,12 @@
 # Initialise our project.
 Initialise the `git` repository.
+
 ```
 $ git init
 Initialized empty Git repository in /Users/nicola/mhpc_tmp/git_ex_0/.git/
 ```
 Explore the `.git` directory.
+
 ```
 $ tree .git/ | more
 .git/
@@ -31,7 +33,8 @@ $ tree .git/ | more
     ├── heads
     └── tags
 ```
-See whath's the status:
+See what's the status:
+
 ```
 $ git status
 On branch master
@@ -41,6 +44,7 @@ Initial commit
 nothing to commit (create/copy files and use "git add" to track)
 ```
 Let's add something.
+
 ```
 $ echo "ciao" > first.txt
 $ echo "ciao" >> first.txt
@@ -58,6 +62,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 `git` is telling us that it has nevere seen the file `first.txt`. Now add it and see what happens.
+
 ```
 $ git status
 On branch master
@@ -70,6 +75,7 @@ Changes to be committed:
 	new file:   first.txt
 ```
 *Changes to be committed* means that the file is known to git. Now try to explore the directory.
+
 ```
 $ tree .git/ | more
 .git/
@@ -102,6 +108,7 @@ $ tree .git/ | more
 10 directories, 15 files
 ```
 The file `first.txt` is now stored by git. Modify it and check again the status.
+
 ```
 $ git status
 On branch master
@@ -120,6 +127,7 @@ Changes not staged for commit:
 	modified:   first.txt
 ```
 Part of our file is still in the staging area. The modification we made is in the working directory. To see this strange effect ask 'git' the difference.
+
 ```
 $ git diff
 diff --git a/first.txt b/first.txt
@@ -132,6 +140,7 @@ index 904fbfa..38f9d0e 100644
 +new line
 ```
 Now add the changes and commit.
+
 ```
 $ git add first.txt 
 $ git commit -m "first commit "
