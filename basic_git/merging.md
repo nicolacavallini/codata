@@ -83,7 +83,7 @@ $ git commit -m "correction on hotfix"
 $ git checkout master
 Switched to branch 'master'
 ```
-append some stext
+append some text
 
 ```
 $ echo "some text" >> first.txt 
@@ -91,7 +91,7 @@ $ git commit -m "second on master"
 [master c0391db] second on master
  1 file changed, 3 insertions(+)
 ```
-The two branches have a common anchestor. 
+The two branches have a common ancestor. 
 
 ```
 * 8b24e7c (HEAD, master) continue editing

@@ -64,6 +64,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 `git` is telling us that it has nevere seen the file `first.txt`. Now add it and see what happens.
 
 ```
+$ git add first.txt
 $ git status
 On branch master
 
@@ -154,4 +155,4 @@ $ git commit -m "first commit "
  - we have an identifier of our commit.
  - Standard unix permissions.
 
-![alt text](./pics/lifecycle.png)
+![alt text](./pics/local_areas.png)

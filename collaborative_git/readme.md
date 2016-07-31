@@ -4,6 +4,10 @@ First of all, choose who is `AStudent` and who is `BStudent`.
 
 For the first steps, `AStudent` works and `BStudent` looks at him.
 
+## What's a Remote?
+
+![some text](./figures/remotes.png)
+
 
 ## The Template Text
 

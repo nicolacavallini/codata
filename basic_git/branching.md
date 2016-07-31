@@ -22,7 +22,7 @@ $ git log --oneline --decorate --all --graph
 * e82e559 (HEAD, master) third commit
 * 402aff8 second commit
 * f8e26ec first commit
- ```
+```
 Notiche that the `HEAD` points to `master`. Create a new branch.
 
 ```
