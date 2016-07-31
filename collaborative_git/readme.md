@@ -6,7 +6,7 @@ For the first steps, `AStudent` works and `BStudent` looks at him.
 
 ## What's a Remote?
 
-![some text](./figures/remotes.png)
+![some text](./figures/manage_remotes.png)
 
 
 ## The Template Text
