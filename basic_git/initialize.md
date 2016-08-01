@@ -5,6 +5,14 @@ Initialise the `git` repository.
 $ git init
 Initialized empty Git repository in /Users/nicola/mhpc_tmp/git_ex_0/.git/
 ```
+
+Before using git, we need to specify username and mail (GitHub accaount data are preferred):
+
+```
+$ git config --global user.name "YOUR NAME"
+$ git config --global user.email "YOUR EMAIL ADDRESS"
+```
+
 Explore the `.git` directory.
 
 ```
