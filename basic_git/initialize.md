@@ -6,7 +6,7 @@ $ git init
 Initialized empty Git repository in /Users/nicola/mhpc_tmp/git_ex_0/.git/
 ```
 
-Before using git, we need to specify username and mail (GitHub accaount data are preferred):
+Before using git, we need to specify username and mail (GitHub account data are preferred):
 
 ```
 $ git config --global user.name "YOUR NAME"
